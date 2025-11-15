@@ -1,11 +1,11 @@
-﻿using LightConsole.Extensions;
+﻿using LightConsole;
 using LightConsole.Features;
 using Microsoft.Extensions.DependencyInjection;
 
 // set Environment
 //Environment.SetEnvironmentVariable("ASPNETCORE_ENVIRONMENT", "Live");
 
-Console.WriteLine("Hello World, this is .NET 9 console boilerplate with dependency injection");
+Console.WriteLine("Hello World, this is .NET 10 console boilerplate with dependency injection");
 
 using var host = Host.CreateHostBuilder(args).Build();
 using var scope = host.Services.CreateScope();
